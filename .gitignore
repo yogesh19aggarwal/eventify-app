@@ -1,0 +1,35 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+yarn-error.log
+pnpm-debug.log
+debug.log
+error.log
+*.pid
+*.seed
+*.lock
+
+# Google API credentials and tokens
+config/credentials.json
+config/token.json
+
+# Compiled files
+dist/
+build/
+
+# Editor & OS files
+.DS_Store
+Thumbs.db
+.vscode/
+

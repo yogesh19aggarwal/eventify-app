@@ -1,0 +1,38 @@
+{
+  "summary": "Project Meeting",
+  "start": {
+    "dateTime": "2025-03-02T10:00:00+05:30",
+    "timeZone": "Asia/Kolkata"
+  },
+  "end": {
+    "dateTime": "2025-03-05T11:00:00+05:30",
+    "timeZone": "Asia/Kolkata"
+  }
+}
+// this is test these fields are mendatory to send
+
+{
+  "summary": "Team Standup",
+  "location": "Zoom Meeting",
+  "description": "Daily team standup meeting for project updates.",
+  "start": {
+    "dateTime": "2025-03-02T09:00:00+05:30",
+    "timeZone": "Asia/Kolkata"
+  },
+  "end": {
+    "dateTime": "2025-03-02T09:30:00+05:30",
+    "timeZone": "Asia/Kolkata"
+  },
+  "attendees": [
+    { "email": "person1@example.com" },
+    { "email": "person2@example.com" }
+  ],
+  "reminders": {
+    "useDefault": false,
+    "overrides": [
+      { "method": "email", "minutes": 30 },
+      { "method": "popup", "minutes": 10 }
+    ]
+  }
+}
+// these are all the field which the api accepts
