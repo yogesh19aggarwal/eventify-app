@@ -20,7 +20,6 @@ export function isAuthenticated(req, res, next) {
     oAuth2Client.setCredentials(token);
 
     if (new Date(token.expiry_date) < new Date()) {
-      console.log("Token expired! Trying to refresh...");
       res.status(401).json({ error: "Unauthorized! Please log in." });
     }
 
